@@ -1,0 +1,19 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
++UVM_VERBOSITY=UVM_HIGH
+-loadpli
+/home/abc24/eda/cadence/xcelium/XCELIUM1803/tools/methodology/UVM/CDNS-1.2/sv/lib/64bit/libuvmpli.so:uvm_pli_boot
++UVM_TESTNAME=test2
+-MESSAGES
+-XLMODE
+./xcelium.d/run.lnx8664.18.03.d
+-RUNMODE
+-CDSLIB
+./xcelium.d/run.lnx8664.18.03.d/cds.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.18.03.d/hdl.var
+-WORK
+worklib
+-HASXLMODE
